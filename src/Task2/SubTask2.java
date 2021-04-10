@@ -15,7 +15,7 @@ public class SubTask2 {
                 integer[i] = Integer.parseInt(str[i]);
 
                 if (hmap.containsKey(integer[i])) {
-                    hmap.put(integer[i], hmap.get(integer[i] + 1));
+                    hmap.get(integer[i] + 1));
                 } else {
                     hmap.put(integer[i],1);
                 }
